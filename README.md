@@ -57,6 +57,10 @@ This is the `function` that will handle files that need to be uploaded. See the 
 
 This `function` is called anytime media is embeded into the editor. It takes the media `element` as it's only argument.
 
+#### `mediauploader_img_onload`
+
+This `function` will be used as the onload handler if the embed is an image.
+
 #### `mediauploader_button_image`
 
 This is the url of an image to be used as the toolbar button for the plugin.
